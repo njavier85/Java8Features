@@ -1,0 +1,55 @@
+Whats is lambda expression?
+
+is anonymous functions, not having name, not having modifiers, not having any return type.
+reduces code, and avoid creating new classes and objects.
+Eg1.
+()-> {System.out.println("Hello");};
+
+Eg2.
+(int a, int b )->{sopln(a+b);}
+
+
+Eg3.
+(String s)->{return s.length();}
+
+if the lambda expression has only one line of code bracket are optional.
+
+()-> sopln("Hello");
+ 
+
+Type Inference: 
+The compiler can guess automatically the type of a variables.
+(a,b)-> sopln(a+b);
+
+(s)-> s.length();
+s-> s.length();
+
+
+/***************************************************************************************************************************************************************/
+
+Functional Interface:
+Is used to call Lambda Expression, 
+the interface must have only abstrat method, but any number of static and default method, 
+Single Abstract Method(SAM)
+
+Runnable contains only run() method
+Callable contains only call() method
+ActionListener contains only actionPerformed() method
+Comparable   contains only compareTo() method
+
+/********************************************************/
+@FunctionalInterface to avoid mistakes when defining FI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
