@@ -3,6 +3,8 @@ if there is an anonymous maybe we can use a lambda expression
 anonymous inner class
 class without a name
 
+er
+
 if the interface has only 1 abstract method we can use lambda expression
 anonymous inner class can extends abstract classes and concrete classes
 anonymous inner class can implements interfaces with many abstract methods

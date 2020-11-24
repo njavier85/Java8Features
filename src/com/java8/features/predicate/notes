@@ -1,0 +1,20 @@
+Predicate Interface
+is a functional interface
+Perform some conditional statement, and return the result.
+
+contains a method called test()
+
+
+joining:
+1)p1: given number greater than 10 or not
+2)p2: is even number
+
+
+default methods of Predicate:
+p1.negate() the oposite
+p1.and(p2)  check both conditions
+p1.or(p2)   at least one conditions needs to be satisfied 
+
+
+
+
