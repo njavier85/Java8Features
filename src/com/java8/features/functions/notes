@@ -1,0 +1,23 @@
+PRedicate vs Function
+
+Predicate is condition-check, after that return trrrrrrue or false.
+
+Predicate<T>
+
+
+Function:
+can return any value. boolean or not
+
+interface Function<T,R> {
+
+	R apply(T t);
+
+}
+
+perform some operation and return a result based on that operation
+
+Functiooooon Chainin
+
+f1 & f2
+1)f1.andThen(f2)-----f1 will be apply followed by f2
+2)f1.compose(f2)-----f2 will bbbbbe apply followed by f1
