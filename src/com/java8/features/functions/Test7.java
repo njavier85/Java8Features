@@ -11,7 +11,7 @@ public class Test7 {
 		System.out.println("Enter Username");
 		
 		String user= sc.next();
-		
+		  
 		System.out.println("Enter Password:");
 		String psw = sc.next();
 		
