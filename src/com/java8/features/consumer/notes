@@ -1,0 +1,6 @@
+i will provide some value, i want a function to consume a value, make some operations
+but return nothing.
+
+interface Consumer<T>{
+	void accept(T t)
+}
